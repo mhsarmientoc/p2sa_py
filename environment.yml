@@ -1,0 +1,14 @@
+name: cleanpython
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - ipython
+  - requests
+  - python-dateutil
+  - pip=19.2.3
+  - pytest==5.2.0
+  - pytest-cov==2.7.1
+  - pip:
+    - astroquery==0.3.10
+    - astropy==3.2.1

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+<RESOURCE type="results">
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="QUERY" value=""><![CDATA[select top 10 * from p2sa.v_observation]]></INFO>
+<INFO name="CAPTION" value=""></INFO>
+<INFO name="PAGE" value=""></INFO>
+<INFO name="PAGE_SIZE" value=""></INFO>
+<INFO name="JOBID" value="1579613379053OPER"><![CDATA[1579613379053OPER]]></INFO>
+<INFO name="JOBNAME" value=""></INFO>
+
+<TABLE>
+<FIELD arraysize="*" datatype="char" name="begin_date" xtype="adql:TIMESTAMP"/>
+<FIELD datatype="boolean" name="calibrated"/>
+<FIELD arraysize="*" datatype="char" name="end_date" xtype="adql:TIMESTAMP"/>
+<FIELD arraysize="*" datatype="char" name="file_format"/>
+<FIELD arraysize="*" datatype="char" name="file_name"/>
+<FIELD arraysize="*" datatype="char" name="file_path"/>
+<FIELD datatype="long" name="file_size"/>
+<FIELD arraysize="*" datatype="char" name="instrument_name"/>
+<FIELD datatype="int" name="observation_oid"/>
+<FIELD arraysize="*" datatype="char" name="observation_type"/>
+<FIELD arraysize="*" datatype="char" name="observatory_name"/>
+<FIELD arraysize="*" datatype="char" name="processing_level"/>
+<FIELD arraysize="*" datatype="char" name="science_objective"/>
+<FIELD arraysize="*" datatype="char" name="science_object_name"/>
+<FIELD datatype="int" name="science_object_oid"/>
+<FIELD arraysize="*" datatype="char" name="wavelength_range"/>
+<DATA>
+<TABLEDATA>
+  <TR>
+    <TD>2012-09-25T05:21:10.089</TD>
+    <TD>F</TD>
+    <TD>2012-09-25T05:21:20.089</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120925_052110.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217349</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-25T04:20:30.027</TD>
+    <TD>F</TD>
+    <TD>2012-09-25T04:20:40.027</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120925_042030.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217421</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Fixed off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-25T02:32:39.92</TD>
+    <TD>F</TD>
+    <TD>2012-09-25T02:32:49.92</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120925_023239.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217472</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-25T00:42:09.81</TD>
+    <TD>F</TD>
+    <TD>2012-09-25T00:42:19.81</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120925_004209.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217521</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-24T22:38:39.74</TD>
+    <TD>F</TD>
+    <TD>2012-09-24T22:38:49.74</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120924_223839.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217573</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-24T20:26:29.556</TD>
+    <TD>F</TD>
+    <TD>2012-09-24T20:26:39.556</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120924_202629.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217621</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-24T18:16:29.478</TD>
+    <TD>F</TD>
+    <TD>2012-09-24T18:16:39.478</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120924_181629.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217678</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-24T14:54:59.226</TD>
+    <TD>F</TD>
+    <TD>2012-09-24T14:55:09.226</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120924_145459.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217726</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-24T11:39:59.037</TD>
+    <TD>F</TD>
+    <TD>2012-09-24T11:40:09.037</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120924_113959.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217774</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+  <TR>
+    <TD>2012-09-24T08:44:28.908</TD>
+    <TD>F</TD>
+    <TD>2012-09-24T08:44:38.908</TD>
+    <TD>FITS</TD>
+    <TD>swap_lv0_20120924_084428.fits</TD>
+    <TD>/p2sa/p2saps/science/swap/L0/2012</TD>
+    <TD>2111040</TD>
+    <TD>SWAP</TD>
+    <TD>195217814</TD>
+    <TD>CDS</TD>
+    <TD>PROBA2</TD>
+    <TD>0</TD>
+    <TD>Variable off-pointing</TD>
+    <TD>Full Sun/Full Disk</TD>
+    <TD>1</TD>
+    <TD>174</TD>
+  </TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
